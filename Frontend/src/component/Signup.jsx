@@ -65,6 +65,7 @@ const Signup = () => {
                             type='password'
                             placeholder='Enter your password' 
                             className='w-80 px-3 border rounded-md outline-none py-1' 
+                            {...register("password", { required: true })} 
                             />
                             
                             <br></br>

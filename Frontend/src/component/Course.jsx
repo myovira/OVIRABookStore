@@ -18,7 +18,7 @@ const Course = () => {
             </button>
           </Link>
         </div>
-        <div className='mt-12 grid grid-cols-1 md:grid-cols-4'>
+        <div className='mt-12 grid grid-cols-1 md:grid-cols-3'>
           {
             list.map((item) => (
               <Cards key={item.id} item={item} />
